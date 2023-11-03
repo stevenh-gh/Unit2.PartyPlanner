@@ -8,6 +8,31 @@
 </head>
 
 <body>
+	<h1>Party Planner</h1>
+
+	<h2>Add party</h2>
+	<div>
+		<form id="party-form">
+			<label for="name">Party name: </label>
+			<input type="text" name="name"><br>
+			<label for="description">Description: </label>
+			<input type="text" name="description"><br>
+			<label for="date">Date: </label>
+			<input type="datetime" name="date"><br>
+			<label for="location">Location: </label>
+			<input type="text" name="location"><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+
+	<h2>List of parties</h2>
+	<div>
+		<h3 id="party-name"></h3>
+		<p id="description"></p>
+		<p id="date"></p>
+		<p id="location"></p>
+	</div>
+
 	<script src="script.js"></script>
 </body>
 
